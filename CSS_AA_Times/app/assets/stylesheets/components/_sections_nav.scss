@@ -1,0 +1,27 @@
+.sections{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 10px;
+	border-bottom: 2px solid lightgray;
+
+}
+
+.sections > li{
+    font-family: sans-serif;
+    font-size: 12px;
+	margin-left: 10px;
+	border-right: 1px solid $light-gray;
+    padding:  0px 10px 0px 10px;
+
+}
+.sections > li:hover{
+    background-color: lightgray;
+    cursor: pointer;
+    text-decoration: underline;
+
+}
+
+.sections > li:last-child:hover{
+    text-decoration: underline;
+}
